@@ -97,3 +97,12 @@ if (AGE >= 18 && AGE<=60){
 let fruits = ["banana", "mango", "apple", "orange"]
 console.log("Fruits Array",fruits[2])
 
+// Array Methods
+let popoutELement = fruits.pop() // Remove last element from array 
+console.log("Pop Element",popoutELement) //Return remove element
+console.log("Array after pop",fruits)
+
+fruits.push("watermelon") //Add value at last index
+console.log("Array after push",fruits)
+
+console.log(fruits.length) //Length Property
