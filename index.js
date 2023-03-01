@@ -78,3 +78,8 @@ console.log("Array after pop", fruits);
 fruits.push("watermelon"); //Add value at last index
 console.log("Array after push", fruits);
 console.log(fruits.length); //Length Property
+var student_names = ["Hamza", "Abbas", "Yousuf", "Kareem", "Hussain", "Bilal"];
+student_names.shift(); //Remove first element from arracy
+console.log(student_names);
+student_names.unshift("A. Hadi"); //Add value at first index
+console.log(student_names);
