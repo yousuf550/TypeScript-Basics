@@ -83,3 +83,22 @@ student_names.shift(); //Remove first element from arracy
 console.log(student_names);
 student_names.unshift("A. Hadi"); //Add value at first index
 console.log(student_names);
+var fruits2 = ["orange", "mango", "banana"];
+fruits2.push(2);
+console.log(fruits2);
+var splice_return = fruits2.splice(2, 1, "grapes", "cherry", "apple"); // splice method changes in existing array
+console.log(fruits2);
+console.log("Splice Return Array", splice_return); //return deleted item array
+var slice_return = fruits.slice(1, 3); //return new array, didnt change in exising array
+console.log("Fruits2 Array", fruits2);
+console.log("Slice Return Array", slice_return);
+// Function with optional parameter
+function sum2(n1, n2) {
+    if (n2 === void 0) { n2 = 5; }
+    return n1 + n2;
+}
+console.log(sum2(2));
+// For Loop
+for (var i = 0; i < 5; i++) {
+    console.log("Hello World " + i);
+}
