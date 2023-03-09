@@ -31,7 +31,7 @@ var var_name = "imran is a smart boy";
 var array1 = var_name.split(" ");
 array1.sort();
 console.log("Splited Array ", array1);
-// Variable Declaration & Hoisting 
+// Variable Declaration & Hoisting
 abc = "sample";
 var abc;
 console.log(abc);
@@ -72,7 +72,7 @@ else {
 var fruits = ["banana", "mango", "apple", "orange"];
 console.log("Fruits Array", fruits[2]);
 // Array Methods
-var popoutELement = fruits.pop(); // Remove last element from array 
+var popoutELement = fruits.pop(); // Remove last element from array
 console.log("Pop Element", popoutELement); //Return remove element
 console.log("Array after pop", fruits);
 fruits.push("watermelon"); //Add value at last index
@@ -102,3 +102,21 @@ console.log(sum2(2));
 for (var i = 0; i < 5; i++) {
     console.log("Hello World " + i);
 }
+var cleanestCities = ["Karachi", "Lahore", "Islamabad", "Peshawar"];
+console.log(cleanestCities[0]);
+console.log(cleanestCities[1]);
+console.log(cleanestCities[2]);
+console.log(cleanestCities[3]);
+for (var i = 0; i < cleanestCities.length; i++) {
+    console.log(cleanestCities[i]);
+}
+for (var i = 0; i < cleanestCities.length; i++) {
+    if ("Islamabad" == cleanestCities[i]) {
+        console.log("Yes it is in the list");
+        break;
+    }
+    else {
+        console.log("city not found");
+    }
+}
+// Nested Loop
