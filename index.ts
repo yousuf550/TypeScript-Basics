@@ -152,3 +152,14 @@ for (let i = 0; i < cleanestCities.length; i++) {
 }
 
 // Nested Loop
+
+// Install & Import  Module/Package "Inquirer"
+import inquirer from 'inquirer';
+
+const data_answer =  inquirer.prompt({
+    message:" What is your name",
+    name: "Full Name",
+    type: "input"
+})
+
+console.log(data_answer)

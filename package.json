@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "inquirer": "^9.1.5"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  },
+  "type": "module",
+  "name": "typescript-basics",
+  "description": "basics of ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yousuf550/TypeScript-Basics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yousuf550/TypeScript-Basics/issues"
+  },
+  "homepage": "https://github.com/yousuf550/TypeScript-Basics#readme"
+}

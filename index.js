@@ -1,4 +1,6 @@
+"use strict";
 // -------TYPESCRIPT------
+exports.__esModule = true;
 console.log("Hello World");
 // ----Variable with type checking
 var first_name = "Yousuf";
@@ -120,3 +122,11 @@ for (var i = 0; i < cleanestCities.length; i++) {
     }
 }
 // Nested Loop
+// Install & Import  Module/Package "Inquirer"
+var inquirer_1 = require("inquirer");
+var data_answer = inquirer_1["default"].prompt({
+    message: " What is your name",
+    name: "Full Name",
+    type: "input"
+});
+console.log(data_answer);
